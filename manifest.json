@@ -1,0 +1,18 @@
+{
+    "name": "STMIK Tegal App Shell",
+    "short_name": "STMIK Tegal",
+    "description": "Aplikasi Pendaftaran Mahasiswa Baru - STMIK Tegal",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4caf50",
+    "icons": [
+        {
+          "src": "favicon.png",
+          "sizes": "48x48 72x72 96x96 144x144 192x192 512x512",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    }
+    

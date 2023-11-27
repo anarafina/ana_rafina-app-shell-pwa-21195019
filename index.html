@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STMIK Tegal App Shell</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+
+</head>
+<body>
+    <header>
+        <h1>STMIK Tegal App Shell</h1>
+      
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/home" data-nav="home">Home</a></li>
+            <li><a href="/about" data-nav="about">About</a></li>
+            <li><a href="/contact" data-nav="contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div data-view="home">
+            <h2>Welcome to STMIK Tegal</h2>
+            <p>
+                STMIK TEGAL adalah salah satu kampus berbasis Informatika dan Komputer pertama di Kawasan Pantura 
+                Barat, Jawa Tengah (berdiri pada tahun 2003). Jurusan yang terdapat pada program S1 kami adalah 
+                Sistem Informasi dan Teknik Infomatika dengan beberapa bidang minat yang tersedia pada setiap jurusan.
+                 STMIK Tegal sedang membuka Penerimaan Mahasiswa Baru (PMB) Serta menyediakan beberapa beasiswa bagi 
+                 calon mahasiswa.</p>
+        </div>
+        <div data-view="about">
+            <h2>About STMIK Tegal</h2>
+           
+            <p>Pendiri Yayasan Manajemen Indonesia dilatarbelakangi oleh kesadaran dan tanggung jawab atas masa depan bangsa dan negara khususnya dalam rangka meningkatkan sumber daya manusia. Bentuk keinginan tersebut didirikan Lembaga Pendidikan Tinggi yakni Akademi Manajemen Informatika dan Komputer (AMIK – YMI) Tegal.
+
+                Secara multisektoral, terselenggaranya perguruan tinggi swasta yang memenuhi kualifikasi akademik dan kelembagaan, akan melahirkan manfaat bagi peningkatan mutu sumber daya manusia yang sangat dibutuhkan demi melancarkan proses pembangunan diberbagai bidang dan sektor. Oleh karena itu bidang ilmu yang dikembangkan pada Akademik Manajemen Informatika & Komputer (AMIK) Tegal dipilih berdasarkan kelayakan terhadap lapangan kerja baik disektor pemerintahan maupun swasta.
+                
+                Sebagai embrio Akademi Manajemen Informatika & Komputer (AMIK) adalah Lembaga Pendidikan Kursus ICM di bawah binaan Diklusmas Dirjen Dikbud dengan Ijin Penyelenggara No. 314/103/Hd/1991.
+                
+                ICM (Informatika Computer & Informatika) Tegal yang semula singkatan dari Institute Of Computer & Management, mengawali pelaksanaan pendidikan sejak tahun 1987 sebagai upaya membantu Pemerintah di Bidang Pendidikan Luar Sekolah. Sebagai lembaga pendidikan, lembaga ini menuntut adanya suatu lembaga penyelenggaraan yang terorganisasi. Untuk itu para pemrakarsa dan perintis kelahiran ICM Tegal segera mengorganisasi diri dalam wadah berbentuk Yayasan yakni Yayasan Asasi Berkedudukan Di Tegal Dengan Akte Notaries No. 71 Tanggal 20 April 1991. Kemudian pada tanggal 11 November 1992 diubah namanya menjadi Yayasan Manajemen Indonesia.
+                
+                Untuk memantapkan eksistensi ICM Tegal, Maka Pada Tanggal 10 November 1992, Yayasan Manajemen Indonesia mengambil keputusan atas berdirinya Akademi Manajemen Informatika & Komputer melalui keputusan No. 006/Ymi/Sk/X/1992 dan mendapatkan Surat Keputusan Menteri Pendidikan Dan Kebudayaan No. 07/D/O/1993, kemudian pada tahun 2003 menjadi Sekolah Tinggi Manajemen Informatika & Komputer (STMIK) SK Mendiknas No. 178/D/O/2003.</p>
+        </div>
+        
+        <div data-view="contact">
+            <form id="registrationForm">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+    
+                <label for="alamat">Alamat:</label>
+                <input type="text" id="alamat" name="alamat" required>
+    
+                <label for="notlp">No Tlp</label>
+                <input type="text" id="notlp" name="notlp" required>
+    
+                <button type="button" >submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 STMIK Tegal. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
